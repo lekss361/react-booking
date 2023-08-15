@@ -1,0 +1,53 @@
+@import'../../_variables';
+header {
+    position: relative;
+    background-color: #6de5ee;
+    border-radius: 10px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  img {
+    height: 36px;
+  }
+  .button {
+    color: #F0F3FD;
+    display: flex;
+    align-items: flex-start;
+    min-width: 65px;
+    padding: 8px 16px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .article {
+    min-width: 46px;
+  }
+  svg {
+    display: flex;
+  }
+  .right-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .right-header .sign-up {
+    height: 22px;
+    display: inline-flex;
+    min-width: 60px;
+    padding: 12px 24px;
+    margin-left: 32px;
+    gap: 10px;
+    border-radius: 32px;
+    background: var(--green-100, #d1fae5);
+  }
+  .right-header .sign-up {
+    color: var(--green-700, #047857);
+    line-height: 22px;
+    /* 157.143% */
+    text-transform: none;
+  }

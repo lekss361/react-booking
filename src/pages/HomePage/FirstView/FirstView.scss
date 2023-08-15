@@ -1,0 +1,145 @@
+.first-view {
+    display: flex;
+    margin-bottom: 74px;
+  
+    .search-location {
+      display: inline-flex;
+      flex-direction: column;
+      margin-top: 107px;
+      width: 496px;
+  
+      h1 {
+        position: relative;
+        width: 496px;
+        margin-bottom: 24px;
+      }
+  
+      h6 {
+        color: var(--mrt-app-neutral-01, #626687);
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        opacity: 0.75;
+      }
+  
+      .partnership {
+        display: inline-flex;
+        align-items: center;
+        gap: 32px;
+        height: 64px;
+  
+        img {
+          width: 82.75px;
+          padding: 24px 0;
+        }
+      }
+    }
+  
+    .main-image {
+      width: 721px;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      z-index: -1;
+      bottom: 46px;
+      left: 104px;
+      border-radius: 0px 0px 0px 80px;
+      grid-column: 2;
+  
+      .main-photo {
+        height: 720px;
+        
+      }
+  
+      .info {
+        position: absolute;
+        z-index: 0;
+        left: 48px;
+        bottom: 48px;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        border-radius: 32px;
+        background: #fff;
+        box-shadow: 0px 11px 48px 0px rgba(51, 51, 51, 0.06);
+  
+        .text-info {
+          display: flex;
+          flex-direction: column;
+          margin-left: 72px;
+        }
+      }
+  
+      .info-2 {
+        left: 392px;
+        gap: 16px;
+  
+        .text-info {
+          margin-left: 0;
+        }
+      }
+  
+      .info-3 {
+        min-width: 280px;
+        left: 609px;
+        gap: 16px;
+  
+        .text-info {
+          display: inline-flexbox;
+          margin-left: 0;
+        }
+      }
+  
+      .orange {
+        position: absolute;
+        z-index: 0;
+        bottom: 418px;
+        left: 555px;
+      }
+  
+      .red {
+        position: absolute;
+        z-index: 0;
+        bottom: 485px;
+        left: 80px;
+      }
+  
+      .blue {
+        position: absolute;
+        z-index: 0;
+        bottom: 234px;
+        left: 565px;
+      }
+  
+      .green-1 {
+        position: absolute;
+        z-index: 0;
+        bottom: 348.5px;
+        left: 244px;
+      }
+  
+      .green-2 {
+        position: absolute;
+        z-index: 0;
+        bottom: 348.5px;
+        left: 304.5px;
+      }
+  
+      .green-3 {
+        position: absolute;
+        z-index: 0;
+        bottom: 348.5px;
+        left: 332.5px;
+      }
+  
+      .ava-2 {
+        position: absolute;
+        left: 55px;
+      }
+  
+      .ava-3 {
+        position: absolute;
+        left: 86px;
+      }
+    }
+  }

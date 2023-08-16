@@ -1,0 +1,27 @@
+.blocks {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+  
+    .yellow-text {
+      display: inline-flex;
+      align-items: center;
+  
+      .line {
+        width: 32px;
+        height: 1px;
+        flex-shrink: 0;
+        background: var(--yellow-500, #f59e0b);
+        margin-right: 8px;
+      }
+  
+      h6 {
+        color: var(--yellow-500, #f59e0b);
+        font-weight: 500;
+      }
+    }
+  }
+  
+  .blocks + .blocks {
+    margin-top: 120px;
+  }

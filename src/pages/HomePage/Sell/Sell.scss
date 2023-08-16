@@ -1,0 +1,139 @@
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    margin-bottom: 40px;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+  
+    .yellow-text {
+      margin-top: 28px;
+    }
+  
+    .info {
+      margin-left: 40px;
+      margin-top: 12px;
+      display: flex;
+      width: 485px;
+      flex-direction: column;
+      gap: 16px;
+  
+      h6 {
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        color: var(--mrt-app-neutral-01, #626687);
+        font-style: normal;
+        text-transform: none;
+        opacity: 0.75;
+      }
+  
+      .detail-text {
+        opacity: 0.75;
+        font-weight: 600;
+        color: var(--mrt-app-headline, #1b1c57);
+      }
+  
+      .detail-info {
+        display: grid;
+        width: 440px;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 52px;
+        row-gap: 16px;
+        margin-bottom: 16px;
+  
+        div {
+          display: flex;
+          flex-direction: row;
+          gap: 16px;
+          align-items: center;
+        }
+  
+        h6 {
+          color: var(--neutral-700, #3c4563);
+          line-height: normal;
+          font-weight: 500;
+        }
+      }
+  
+      .line {
+        width: 440px;
+        border-top: 1px solid var(--neutral-100, #f0f3fd);
+      }
+  
+      .contact-info {
+        display: flex;
+        align-items: center;
+  
+        .text-info {
+          display: flex;
+          flex-direction: column;
+          margin-left: 24px;
+        }
+      }
+  
+      .contact-button {
+        display: inline-flex;
+        padding: 12px 16px;
+        margin-left: 59px;
+        align-items: center;
+        gap: 16px;
+        border-radius: 32px;
+        background: var(--green-500, #10b981);
+  
+        h6 {
+          color: #fff;
+        }
+      }
+    }
+  }
+  
+  .right {
+    display: flex;
+    height: 416px;
+    position: relative;
+  
+    img {
+      border-radius: 4px;
+    }
+  
+    .sofa {
+      position: absolute;
+      left: -40px;
+      bottom: -43px;
+      width: 296px;
+      height: 168px;
+      flex-shrink: 0;
+    }
+  
+    .small-image {
+      position: absolute;
+      width: 96px;
+      height: 80px;
+      flex-shrink: 0;
+    }
+  
+    .vase {
+      left: 268px;
+      bottom: -43px;
+    }
+  
+    .armchair {
+      left: 372px;
+      bottom: -43px;
+    }
+  
+    .play {
+      position: absolute;
+      left: 220px;
+      top: 184px;
+    }
+    .home-6{
+        position: absolute;
+        height: auto;
+    }
+  }

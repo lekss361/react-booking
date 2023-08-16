@@ -36,7 +36,6 @@
     }
   
     .main-image {
-      width: 721px;
       display: flex;
       position: relative;
       overflow: hidden;
@@ -44,8 +43,7 @@
       bottom: 46px;
       left: 104px;
       border-radius: 0px 0px 0px 80px;
-      grid-column: 2;
-  
+        
       .main-photo {
         height: 720px;
         

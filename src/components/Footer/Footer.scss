@@ -1,0 +1,54 @@
+footer {
+    margin-top: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 263px;
+  
+    .logo-text {
+      margin-bottom: 16px;
+    }
+  
+    h6 {
+      display: flex;
+      color: var(--mrt-app-neutral-01, #626687);
+      font-weight: 400;
+      line-height: 24px;
+      /* 171.429% */
+    }
+  
+    .company-description {
+      width: 320px;
+    }
+  
+    .mini-columns {
+      width: 617px;
+      display: flex;
+      flex-direction: row;
+      gap: 88px;
+  
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        width: fit-content;
+      }
+  
+      h5 {
+        margin-bottom: 6px;
+        font-weight: 600;
+        display: flex;
+      }
+  
+      .field:only-child {
+        display: flex;
+      }
+    }
+  
+    .socials {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      gap: 24px;
+    }
+  }

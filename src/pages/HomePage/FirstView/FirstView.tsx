@@ -76,34 +76,7 @@ export const FirstView = () => {
                     <h6>People Looking for New Homes</h6>
                 </div>
             </div>
-            <svg className="orange" xmlns="http://www.w3.org/2000/svg" width="44" height="102" viewBox="0 0 44 102"
-                fill="none">
-                <path d="M2 2.5H37.5C39.7091 2.5 41.5 4.29086 41.5 6.5V99.5" stroke="#F59E0B" stroke-width="4"
-                    stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg className="red" xmlns="http://www.w3.org/2000/svg" width="71" height="96" viewBox="0 0 71 96" fill="none">
-                <path d="M2 94V8.5C2 5.18629 4.68629 2.5 8 2.5H68.5" stroke="#EF4444" stroke-width="4"
-                    stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg className="blue" xmlns="http://www.w3.org/2000/svg" width="47" height="79" viewBox="0 0 47 79" fill="none">
-                <path d="M2 2H38.5C41.8137 2 44.5 4.68629 44.5 8V77" stroke="#3B82F6" stroke-width="4"
-                    stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <svg className="green-1" xmlns="http://www.w3.org/2000/svg" width="47" height="5" viewBox="0 0 47 5"
-                fill="none">
-                <path d="M2 2.5H44.5" stroke="#D1FAE5" stroke-width="4" stroke-linecap="round"
-                    stroke-linejoin="round" />
-            </svg>
-            <svg className="green-2" xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
-                fill="none">
-                <path d="M2.5 2.5H14.5" stroke="#D1FAE5" stroke-width="4" stroke-linecap="round"
-                    stroke-linejoin="round" />
-            </svg>
-            <svg className="green-3" xmlns="http://www.w3.org/2000/svg" width="34" height="5" viewBox="0 0 34 5"
-                fill="none">
-                <path d="M2.5 2.5H32" stroke="#D1FAE5" stroke-width="4" stroke-linecap="round"
-                    stroke-linejoin="round" />
-            </svg>
+            
         </div>
     </div>
   )

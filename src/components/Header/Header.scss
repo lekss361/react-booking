@@ -1,24 +1,28 @@
-@import'../../_variables';
+@import "../../_variables";
+
 header {
+  min-width: 666px;
   position: absolute;
+  height: 46px;
+  justify-content: space-between;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1200px;
-  height: 46px;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-  }
+  width: 100%;
+
   img {
     height: 36px;
   }
   .button {
-    color: #F0F3FD;
+    
+    color: var(--neutral-100, #f0f3fd);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
     display: flex;
-    align-items: flex-start;
-    min-width: 65px;
     padding: 8px 16px;
+    align-items: flex-start;
     gap: 10px;
     border-radius: 32px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -47,7 +51,16 @@ header {
   }
   .right-header .sign-up {
     color: var(--green-700, #047857);
-    line-height: 22px;
-    /* 157.143% */
-    text-transform: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
   }
+}
+
+@media (min-width: 2000px) {
+  header {
+    width: 1717px;
+    margin: 0 auto;
+  }
+}
